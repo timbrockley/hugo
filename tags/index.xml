@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hugo Site Example</title>
+    <link>https://hugo.timbrockley.co.uk/tags/</link>
+    <description>Recent content in Tags on Hugo Site Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 11 Aug 2020 10:36:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://hugo.timbrockley.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>development</title>
+      <link>https://hugo.timbrockley.co.uk/tags/development/</link>
+      <pubDate>Tue, 11 Aug 2020 10:36:58 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>documentation</title>
+      <link>https://hugo.timbrockley.co.uk/tags/documentation/</link>
+      <pubDate>Tue, 11 Aug 2020 10:36:58 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://hugo.timbrockley.co.uk/tags/git/</link>
+      <pubDate>Tue, 11 Aug 2020 10:36:58 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://hugo.timbrockley.co.uk/tags/github/</link>
+      <pubDate>Tue, 11 Aug 2020 10:36:58 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>version_control</title>
+      <link>https://hugo.timbrockley.co.uk/tags/version_control/</link>
+      <pubDate>Tue, 11 Aug 2020 10:36:58 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/version_control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://hugo.timbrockley.co.uk/tags/hugo/</link>
+      <pubDate>Mon, 10 Aug 2020 16:31:32 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://hugo.timbrockley.co.uk/tags/markdown/</link>
+      <pubDate>Mon, 10 Aug 2020 16:31:32 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variables</title>
+      <link>https://hugo.timbrockley.co.uk/tags/variables/</link>
+      <pubDate>Thu, 30 Jul 2020 21:54:14 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>example</title>
+      <link>https://hugo.timbrockley.co.uk/tags/example/</link>
+      <pubDate>Thu, 23 Jul 2020 19:11:37 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image</title>
+      <link>https://hugo.timbrockley.co.uk/tags/image/</link>
+      <pubDate>Thu, 23 Jul 2020 19:11:37 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/tags/image/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

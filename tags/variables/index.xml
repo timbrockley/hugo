@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>variables on Hugo Site Example</title>
+    <link>https://hugo.timbrockley.co.uk/tags/variables/</link>
+    <description>Recent content in variables on Hugo Site Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Jul 2020 21:54:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://hugo.timbrockley.co.uk/tags/variables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Variables</title>
+      <link>https://hugo.timbrockley.co.uk/docs/hugo_variables/</link>
+      <pubDate>Thu, 30 Jul 2020 21:54:14 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/docs/hugo_variables/</guid>
+      <description>    .IsHome .IsNode .IsPage .Type .Kind .File.LogicalName .File.Ext .File.Dir     / true true false page home      /test1/ false false true page page test1.md md \   /xyz1/xyz1test1/ false false true xyz1 page xyz1test1.md md xyz1\   /xyz1/xyz2/xyz2test1/ false false true xyz1 page xyz2test1.md md xyz1\xyz2\   /xyz1/ false true false xyz1 section      /tags/ false true false tags taxonomy      /categories/ false true false categories taxonomy      /categories/cat1/ false true false categories term      /tags/tag1/ false true false tags term       </description>
+    </item>
+    
+  </channel>
+</rss>

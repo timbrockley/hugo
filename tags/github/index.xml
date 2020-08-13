@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Hugo Site Example</title>
+    <link>https://hugo.timbrockley.co.uk/tags/github/</link>
+    <description>Recent content in github on Hugo Site Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 11 Aug 2020 10:36:58 +0100</lastBuildDate>
+    
+	<atom:link href="https://hugo.timbrockley.co.uk/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Delete GitHub History</title>
+      <link>https://hugo.timbrockley.co.uk/docs/delete_github_history/</link>
+      <pubDate>Tue, 11 Aug 2020 10:36:58 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/docs/delete_github_history/</guid>
+      <description>Delete GitHub History  First Method Deleting the &amp;ldquo;.git&amp;rdquo; folder may cause problems. To delete all existing commits and recreate an initial commit.
+# Clone the project, e.g. &amp;quot;myproject&amp;quot; is my project repository:git clone &amp;lt;&amp;lt; REPO_LINK &amp;gt;&amp;gt;# Since all of the commits history are in the &amp;quot;.git&amp;quot; folder, we have to remove it:cd myproject# Check out to a temporary branch:git checkout --orphan TEMP_BRANCH# Add all the files:git add -A# Commit the changes:git commit -am &amp;quot;Initial commit&amp;quot;# Delete the old branch:git branch -D master# Rename the temporary branch to master:git branch -m master# Finally, force update to our repository:git push -f origin masterIf this doesn&amp;rsquo;t work, try the next method below.</description>
+    </item>
+    
+  </channel>
+</rss>

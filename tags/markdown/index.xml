@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Hugo Site Example</title>
+    <link>https://hugo.timbrockley.co.uk/tags/markdown/</link>
+    <description>Recent content in markdown on Hugo Site Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 10 Aug 2020 16:31:32 +0100</lastBuildDate>
+    
+	<atom:link href="https://hugo.timbrockley.co.uk/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Cheatsheet</title>
+      <link>https://hugo.timbrockley.co.uk/docs/markdown_cheatsheet/</link>
+      <pubDate>Mon, 10 Aug 2020 16:31:32 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/docs/markdown_cheatsheet/</guid>
+      <description>Headings # Heading 1## Heading 2### Heading 3#### Heading 4##### Heading 5###### Heading 6Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6  Lists * Item 1* Item 2* Sub Item 1* Sub Item 21. Item 12. Item 23. Item 3 Item 1 Item 2  Sub Item 1 Sub Item 2     Item 1 Item 2 Item 3   Emphasis *This text will be italic*_This will also be italic_**This text will be bold**__This will also be bold__*You **can** combine them*This text will be italic This will also be italic This text will be bold This will also be bold You can combine them</description>
+    </item>
+    
+    <item>
+      <title>Hugo Example Page</title>
+      <link>https://hugo.timbrockley.co.uk/hugo_example_page/</link>
+      <pubDate>Thu, 23 Jul 2020 19:11:37 +0100</pubDate>
+      
+      <guid>https://hugo.timbrockley.co.uk/hugo_example_page/</guid>
+      <description>Example Hugo Page Example Hugo page written in markdown.
+External link to Google</description>
+    </item>
+    
+  </channel>
+</rss>

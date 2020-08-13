@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A quick guide to markdown which is used for Hugo content.">
+    <meta name="robots" content="noarchive">
+    <link rel="stylesheet" href="https://hugo.timbrockley.co.uk/css/style.css">
+    <script src="https://hugo.timbrockley.co.uk/js/navigation.js"></script>
+    <title>Markdown Cheatsheet</title>
+</head>
+<body>
+
+    <header>
+        <span class="header_text">
+
+            
+            
+                
+            
+
+            <a href="https://hugo.timbrockley.co.uk">
+                <img src="https://hugo.timbrockley.co.uk/images/home_button_white_blue_circle_border.png" alt="Homepage Link" width="20px" height="20px">
+                Hugo Site Example
+            </a>
+        </span>
+
+
+    </header>
+
+    <div id="header_title">
+
+        
+            Markdown Cheatsheet
+        
+
+    </div>
+    <main>
+
+    
+    
+    
+
+        <div id="content">
+            <h2 id="headings">Headings</h2>
+<pre><code># Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+</code></pre><h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<h2 id="heading"></h2>
+<h2 id="lists">Lists</h2>
+<pre><code>* Item 1
+* Item 2
+  * Sub Item 1
+  * Sub Item 2
+
+1. Item 1
+2. Item 2
+3. Item 3
+</code></pre><ul>
+<li>Item 1</li>
+<li>Item 2
+<ul>
+<li>Sub Item 1</li>
+<li>Sub Item 2</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+<h2 id="heading-7"></h2>
+<h2 id="emphasis">Emphasis</h2>
+<pre><code>*This text will be italic*
+_This will also be italic_
+**This text will be bold**
+__This will also be bold__
+*You **can** combine them*
+</code></pre><p><em>This text will be italic</em>
+<em>This will also be italic</em>
+<strong>This text will be bold</strong>
+<strong>This will also be bold</strong>
+<em>You <strong>can</strong> combine them</em></p>
+<h2 id="heading-8"></h2>
+<h2 id="images">Images</h2>
+<pre><code>![Hugo Logo](/images/hugo_logo_200x55.png)
+</code></pre><p><img src="/images/hugo_logo_200x55.png" alt="Hugo Logo"></p>
+<h2 id="heading-9"></h2>
+<h2 id="links">Links</h2>
+<pre><code>[Link](#)
+</code></pre><p><a href="#">link</a></p>
+<h2 id="heading-10"></h2>
+<h2 id="code-blocks">Code Blocks</h2>
+<p>```javascript</p>
+<p>var a1='test&rsquo;;</p>
+<p>```</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a1</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;test&#39;</span>;
+</code></pre></div><h2 id="heading-11"></h2>
+<h2 id="blockquotes">Blockquotes</h2>
+<pre><code>&gt; This is some text.
+&gt; More text.
+</code></pre><blockquote>
+<p>This is some text.
+More text.</p>
+</blockquote>
+<h2 id="heading-12"></h2>
+<h2 id="escape-with-backslashes">Escape With Backslashes</h2>
+<pre><code>\*
+</code></pre><p>*</p>
+<h2 id="heading-13"></h2>
+<h2 id="task-lists">Task Lists</h2>
+<pre><code>- [x] this is a complete item
+- [ ] this is an incomplete item
+- [x] @mentions, #refs, [links](),
+**formatting**, and &lt;del&gt;tags&lt;/del&gt;
+supported
+- [x] list syntax required (any
+unordered or ordered list
+supported)
+</code></pre><ul>
+<li><input checked="" disabled="" type="checkbox"> this is a complete item</li>
+<li><input disabled="" type="checkbox"> this is an incomplete item</li>
+<li><input checked="" disabled="" type="checkbox"> @mentions, #refs, <a href="">links</a>,
+<strong>formatting</strong>, and <!-- raw HTML omitted -->tags<!-- raw HTML omitted -->
+supported</li>
+<li><input checked="" disabled="" type="checkbox"> list syntax required (any
+unordered or ordered list
+supported)</li>
+</ul>
+<h2 id="heading-14"></h2>
+<h2 id="tables">Tables</h2>
+<pre><code>| Left Alignment | Right Alignment | Centered |
+|:---------------|----------------:|:--------:|
+| Item 11        | Item 12         | Item 13  |
+| Item 21        | Item 22         | Item 23  |
+</code></pre><table>
+<thead>
+<tr>
+<th align="left">Left Alignment</th>
+<th align="right">Right Alignment</th>
+<th align="center">Centered</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Item 11</td>
+<td align="right">Item 12</td>
+<td align="center">Item 13</td>
+</tr>
+<tr>
+<td align="left">Item 21</td>
+<td align="right">Item 22</td>
+<td align="center">Item 23</td>
+</tr>
+</tbody>
+</table>
+<p>The default text alignment is is centered and can be defined by places a colon on the left, right or both sides of the minus sign(s) in the table definition.</p>
+<h2 id="heading-15"></h2>
+<h2 id="emojis">Emojis</h2>
+<p>GitHub and other sites support Emojis.</p>
+<pre><code>:+1: :sparkles: :camel: :tada:
+:rocket: :metal: :octocat:
+</code></pre><p><img src="/images/github_emojis.png" alt="GitHub Emojis"></p>
+
+        </div>
+
+    
+    
+    
+
+    </main>
+    <aside>
+
+    
+    <nav>
+
+        <h4>Sections</h4>
+
+        <a href="https://hugo.timbrockley.co.uk/">home</a>
+        &nbsp;
+
+        
+            <a href="https://hugo.timbrockley.co.uk/docs/">docs</a>
+            &nbsp;
+        
+
+        <br><br>
+        
+        
+        
+        
+        
+
+            
+            
+            
+            <select id="option_articles" onchange="window.document.location.href=this.options[this.selectedIndex].value;">
+            <option value=""></option>
+            
+            
+                
+                
+                    
+                
+                <option value="https://hugo.timbrockley.co.uk/docs/delete_github_history/">Delete GitHub History</option>
+            
+                
+                
+                    
+                
+                <option value="https://hugo.timbrockley.co.uk/hugo_example_page/">Hugo Example Page</option>
+            
+                
+                
+                    
+                
+                <option value="https://hugo.timbrockley.co.uk/docs/hugo_variables/">Hugo Variables</option>
+            
+                
+                
+                    
+                
+                <option value="https://hugo.timbrockley.co.uk/docs/markdown_cheatsheet/">Markdown Cheatsheet</option>
+            
+            
+            </select>
+            
+
+        
+        
+        
+
+    </nav>
+
+    <br>
+
+    
+    
+    <nav>
+        <h4>Categories</h4>
+        
+            
+                
+                    <a href="https://hugo.timbrockley.co.uk/categories/development/">development</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/categories/documentation/">documentation</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/categories/hugo/">hugo</a>
+                    &nbsp;
+                
+            
+        
+    </nav>
+
+    <br>
+
+    
+    
+    <nav>
+        <h4>Tags</h4>
+        
+            
+                    
+                    <a href="https://hugo.timbrockley.co.uk/tags/development/">development</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/documentation/">documentation</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/example/">example</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/git/">git</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/github/">github</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/hugo/">hugo</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/image/">image</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/markdown/">markdown</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/variables/">variables</a>
+                    &nbsp;
+                
+                    <a href="https://hugo.timbrockley.co.uk/tags/version_control/">version_control</a>
+                    &nbsp;
+                
+            
+        
+    </nav>
+
+</aside>
+
+    <footer>
+
+        <span class="footer_text">
+
+            
+            
+                
+            
+
+            <a href="https://hugo.timbrockley.co.uk">
+                <img src="https://hugo.timbrockley.co.uk/images/home_button_white_blue_circle_border.png" alt="Homepage Link" width="20px" height="20px">
+            </a>
+
+            &nbsp;
+
+            
+
+                
+
+                    &copy; Copyright
+
+                    
+
+                        
+
+                        
+
+                            2020
+
+                        
+
+
+                    
+
+                    
+                        Tim Brockley
+                    
+
+                
+
+            
+
+        </span>
+
+    </footer>
+
+</body>
+</html>
